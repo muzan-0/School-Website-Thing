@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica, sans-serif;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 15vh;
+  background-color: #0071bc;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topbaritem{
+  margin: 2vw;
+  align-self: center;
+  color: white;
+  font-size: 25px;
+  opacity: 80%;
+}
+
+.main{
+  margin: 30px;
+}
