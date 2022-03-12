@@ -9,7 +9,7 @@ body{
 }
 
 
-.top{
+nav{
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -17,16 +17,49 @@ body{
   background-color: #0071bc;
   margin: 0px;
   padding: 0px;
+
 }
 
 .topbaritem{
   margin: 2vw;
   align-self: center;
   color: white;
-  font-size: 25px;
-  opacity: 80%;
+  font-size: 3vh;
+  opacity: 0.8;
+}
+
+.selecteditem{
+  margin: 2vw;
+  align-self: center;
+  color: white;
+  font-size: 3vh;
+  font-weight: bold;
+  opacity: 1.0;
+}
+
+.logo{
+  margin: 2vw, 2vw, 0vw, 2vw;
+  align-self: center;
+  opacity: 1.0;
 }
 
 .main{
-  margin: 30px;
+  margin: 0vw;
+  display: flex;
+  flex-direction: column;
 }
+
+.textbox1{
+  margin: 5vh;
+  padding: 5vh;
+  background-color: #ffffff;
+  border: 2vh solid #0071bc;
+  box-shadow: 5px 5px 0px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
