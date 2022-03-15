@@ -2,10 +2,15 @@
   margin: 0px;
   padding: 0px;
   font-family: helvetica, sans-serif;
+  align-self: center;
 }
 
 body{
   background-color: whitesmoke;
+}
+
+h1{
+  font-size: 10vh;
 }
 
 
@@ -20,7 +25,7 @@ nav{
 
 }
 
-.topbaritem{
+.navitem{
   margin: 2vw;
   align-self: center;
   color: white;
@@ -49,12 +54,21 @@ nav{
   flex-direction: column;
 }
 
-.textbox1{
-  margin: 5vh;
-  padding: 5vh;
-  background-color: #ffffff;
-  border: 2vh solid #0071bc;
-  box-shadow: 5px 5px 0px;
+.mainsection{
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainsection h1{
+  margin: 3vh;
+}
+
+.classes{
+  margin: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: left;
 }
 
 
