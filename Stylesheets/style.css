@@ -93,16 +93,24 @@ nav{
   flex-direction: column;
 }
 
+.shopitem h1{
+  font-size: 5vh;
+  margin: 3vh 0vh 1vh 0vh;
+}
+
 .buy{
   background-color: #0071bc;
   color: white;
+  font-size: 4vh;
   padding: 1vh;
-  margin: 2vh
+  margin: 2vh 2vh 4vh 2vh
 }
 
 .buy:hover{
   background-color: #0061a2;
 }
+
+
 
 a{
   text-decoration: none;
