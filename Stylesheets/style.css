@@ -33,6 +33,10 @@ nav{
 
 }
 
+iframe{
+  align-self: center;
+}
+
 .navitem{
   margin: 2vw;
   align-self: center;
@@ -63,10 +67,14 @@ nav{
 }
 
 .mainsection{
+  width: 100%;
   margin-bottom: 5vh;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
+
+
 
 .mainsection h1{
   margin: 3vh;
