@@ -84,13 +84,25 @@ nav{
 }
 
 .shopitem{
-  margin: 20vh;
-  padding: 20px;
-  border: 5px solid red;
+  margin: 5vh;
+  padding: 1vh;
+  height: 50vh;
+  border: 5px solid #0071bc;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
+.buy{
+  background-color: #0071bc;
+  color: white;
+  padding: 1vh;
+  margin: 2vh
+}
+
+.buy:hover{
+  background-color: #0061a2;
+}
 
 a{
   text-decoration: none;
