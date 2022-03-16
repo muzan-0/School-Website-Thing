@@ -13,6 +13,14 @@ h1{
   font-size: 10vh;
 }
 
+h2{
+  font-size: 6vh;
+}
+
+p{
+  font-size: 4vh;
+}
+
 
 nav{
   display: flex;
@@ -66,9 +74,21 @@ nav{
 
 .classes{
   margin: 3vh;
+}
+
+.grid{
   display: flex;
-  flex-direction: column;
-  justify-items: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.shopitem{
+  margin: 20vh;
+  padding: 20px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
 }
 
 
