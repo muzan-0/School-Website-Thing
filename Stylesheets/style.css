@@ -92,9 +92,10 @@ iframe{
 }
 
 .shopitem{
-  margin: 5vh;
+  margin: 1.5vh;
   padding: 1vh;
   height: 50vh;
+  width: 40vh;
   border: 5px solid #0071bc;
   display: flex;
   justify-content: center;
