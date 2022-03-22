@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 h1{
@@ -111,6 +111,7 @@ iframe{
   background-color: #0071bc;
   color: white;
   font-size: 4vh;
+  font-weight: bold;
   padding: 1vh;
   margin: 2vh 2vh 4vh 2vh
 }
